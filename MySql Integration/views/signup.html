@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mysql
+        </title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <form action="/check"method="POST">
+            <h1>Contact Information</h1>
+            <table>
+                <tr>
+                <th>
+                    First Name*
+                </th>
+                <td>
+                    <input type="text" name="fname">
+                </td>
+                </tr>
+                <tr>
+                    <th>
+                        Last Name*
+                    </th>
+                    <td>
+                        <input type="text" name="lname">
+                    </td>
+                    </tr>
+                <tr>
+                    <th>Address 1*</th>
+                    <td><input type="text" name="add1"></td>
+                </tr>
+                <tr>
+                    <th>Address 2*</th>
+                    <td><input type="text" name="add2"></td>
+                </tr>
+                <tr>
+                    <th>City*</th>
+                    <td><input type="text" name="city"></td>
+                </tr>
+                <tr>
+                    <th>State or Province*</th>
+                    <td>
+                        <select name="state">
+                            <option>
+                                Select
+                            </option>
+                            <option value="TamilNadu">
+                                TamilNadu
+                            </option>
+                            <option value="AndhraPradesh">
+                                AndhraPradesh
+                            </option>
+                            <option value="Kerala">
+                                Kerala
+                            </option>
+                            <option value="Karnataka">
+                                Karnataka
+                            </option>
+                            <option value="JammuAndKashmir">
+                                JammuAndKashmir
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Zip*</th>
+                    <td><input type="text" name="zip"></td>
+                </tr>
+                <tr>
+                    <th>Country*</th>
+                    <td><input type="text" name="country"></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        <input type="radio" value="Female" name="radio">Female
+                        <input type="radio" value="Male" name="radio">Male
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Email Address:
+                    </th>
+                    <td>
+                        <input type="text" name="emailadd">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Confirm Email:
+                    </th>
+                    <td>
+                        <input type="email" name="cemail">
+                    </td>
+                </tr>
+            </table>
+            <input type="submit"></button>
+        </form>
+    </body>
+</html>
